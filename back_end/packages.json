@@ -1,0 +1,84 @@
+{
+  "packages": [ 
+    {
+      "company": "AWS",
+      "name": "Skynet",
+      "description": "Entry-level package, perfect for personal projects",
+      "price": 5.99,
+      "storage": "8GB",
+      "bandwidth": "64GB",
+      "security": "Basic",
+      "type": "NoSQL Database"
+    },
+    {
+      "company": "Microsoft",
+      "name": "NimbusLite",
+      "description": "Entry-level package, perfect for small projects",
+      "price": 9.99,
+      "storage": "16GB",
+      "bandwidth": "128GB",
+      "security": "Basic",
+      "type": "NoSQL Database"
+    },
+    {
+      "company": "AWS",
+      "name": "Cloud+Plus",
+      "description": "Intermediate package for small businesses",
+      "price": 19.99,
+      "storage": "32GB",
+      "bandwidth": "252GB",
+      "security": "Enhanced",
+      "type": "Cloud Container"
+    },
+    {
+      "company": "Azure",
+      "name": "CloudPro",
+      "description": "Advanced package, ideal for growing businesses",
+      "price": 29.99,
+      "storage": "64GB",
+      "bandwidth": "512GB",
+      "security": "Enhanced",
+      "type": "Cloud Container"
+    },
+    {
+      "company": "Apple",
+      "name": "CloudDeveloper",
+      "description": "Package tailored for software developers",
+      "price": 49.99,
+      "storage": "128GB",
+      "bandwidth": "1TB",
+      "security": "Enhanced",
+      "type": "NoSQL Database"
+    },
+    {
+      "company": "Microsoft",
+      "name": "APS",
+      "description": "ID",
+      "price": 79.99,
+      "storage": "128GB",
+      "bandwidth": "512GB",
+      "security": "Advanced",
+      "type": "Analytics Platform"
+    },
+    {
+      "company": "Sales Force",
+      "name": "Sky Storage",
+      "description": "Customizable package for large enterprises",
+      "price": 99.99,
+      "storage": "128GB",
+      "bandwidth": "1TB",
+      "security": "Advanced",
+      "type": "Analytics Platform"
+    },
+    {
+      "company": "Sales Force",
+      "name": "Cloud Surge Max",
+      "description": "Top-tier package for large enterprises",
+      "price": 149.99,
+      "storage": "512GB",
+      "bandwidth": "5TB",
+      "security": "Advanced",
+      "type": "Analytics Platform"
+    }
+  ]
+}

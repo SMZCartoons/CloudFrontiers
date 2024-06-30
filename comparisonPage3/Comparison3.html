@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!-- References Style Sheets and declares title of the page -->
+    <head> <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="../resources/style.css">
+        <title>ITWS1100 Lab 6 : jQuery</title>
+        <meta charset="UTF-8" />
+        <meta viewport="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="../resources/jquery-3.6.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="./Comparison3.js"></script>
+    </head>
+
+    <!-- Creates the menu bar with Home and Compare tabs -->
+    <body id="body">
+        <div class="Logo">
+            CloudFrontiers
+
+            <a href="../comparisonPage1/Comparison.html"><u>Compare</u></a>
+            <a href="../index.html">Home</a>
+        </div> <br>
+        
+        <!-- Title for the page -->
+        <div class="bio2">
+            Export Data
+        </div>
+
+        <!-- where the data blocks will go that the user can re-orient to reflect ordering of rows/json objects  in output file -->
+        <p class="TextMargins2">Drag Items to Reflect Their Order in the Output File</p>
+        <div class="box3">
+            
+            <div>
+            </div>
+        </div>
+        
+        <!-- dropdown menu to allow user to select output format -->
+        <div class="dropdown_3">
+            <button class="drop">Select File Format</button><br>
+            <div class="dropcont">
+              <a class= "JSON" href="#">JSON</a><br>
+              <a class= "CSV" href="#">CSV</a><br>
+            </div>
+          </div>
+        </div>
+
+        <!-- button to export the data -->
+        <div id="nextsec">
+            
+            <input type="text" id="fname" name="fname" placeholder="Put File Name Here"><br>
+            <button class="submitButton" onclick="jsonToCSV()">Export</button>
+        </div> <br><br>
+
+        <!-- button to go to previous page -->
+        <div id="next">
+            <button class="prevButton">Back</button>
+        </div>
+        
+    </body>
+
+
+</html>

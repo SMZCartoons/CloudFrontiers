@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!-- References Style Sheets and declares title of the page -->
+    <head> <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="../resources/style.css">
+        <title>ITWS1100 Lab 6 : jQuery</title>
+        <meta charset="UTF-8" />
+        <meta viewport="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="../resources/jquery-3.6.1.min.js">
+        </script>
+        <script type="text/javascript" src="./Comparison2.js"></script>
+    </head>
+
+    <!-- Creates the menu bar with Home and Compare tabs -->
+    <body id="body">
+        <div class="Logo">
+            CloudFrontiers
+
+            <a href="../comparisonPage1/Comparison.html"><u>Compare</u></a>
+            <a href="../index.html">Home</a>
+        </div> <br>
+        
+        <!-- Title text for page -->
+        <div class="bio2">
+            In-Depth Comparison
+        </div>
+        
+        <!-- dropdowns to select to products to compare, side by side -->
+        <div>
+            <div class="dropdown_l">
+                <button class="drop_l">Select Product 1</button><br>
+                <div class="dropcont_l">
+                </div>
+            </div>
+            </div>   
+
+            <div class="dropdown_r">
+                <button class="drop_r">Select Product 2</button><br>
+                <div class="dropcont_r">
+                </div>
+            </div>
+            </div> 
+        </div>
+
+        <!-- submit button for comparison -->
+        <div id="nextsec">
+            <button class="submitButton">Compare</button>
+        </div>
+
+        <!-- where data will go. using flexbox, the data for each product will be displayed side by side with each spec in a separate box -->
+        <div class="flex-container">
+            <div class="box">
+            </div>
+            <div class="boxOther">
+            </div>
+        </div>
+
+        <!-- previous and next buttons to previous and next page respectively -->
+        <div id="next">
+            
+            <button class="prevButton">Back</button>
+            <button class="nextButton">Next</button>
+        </div>
+    </body>
+
+
+</html>

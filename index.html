@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <!-- References Style Sheets and declares title of the page -->
+    <head> <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="./resources/style.css">
+        <title>ITWS1100 Lab 6 : jQuery</title>
+        <meta charset="UTF-8" />
+        <meta viewport="width=device-width, initial-scale=1.0" />
+        <script type="text/javascript" src="./resources/jquery-3.6.1.min.js">
+        </script>
+        <script type="text/javascript" src="./homePage/homepage.js"></script>
+    </head>
+
+    <!-- Creates the menu bar with Home and Compare tabs -->
+    <body id="body">
+        <div class="Logo">
+            CloudFrontiers
+
+            <a href="./comparisonPage1/Comparison.html">Compare</a>
+            <a href=""><u>Home</u></a>
+        </div> <br>
+
+        <!-- blurb on the webpage and who we are -->
+        <div id="firstPara">
+            <div class="bio">
+                <b>Who Are We?</b>
+            </div>
+            <p class="TextMargins">
+                CloudFrontiers is a service that provides ready-to-go market analysis for those who don't know where to start. <br>
+                We work with multiple top-tier cloud computing companies to create one centralized hub that holds the price, specs, and other details about popular and efficient
+                cloud computing products and the platforms that they are offered on <br> 
+                <br>
+                
+                In addition to listing these specs in an easy-to-read format, this platform allows you to format a comparison between two specific offerings of a product to better 
+                understand the differences between the offerings to understand which product is better for you and your team. <br>
+                <br>
+                
+                We also allow you to export the data as either a JSON or CSV file in case you want to keep the data for future research or for an application you are building. 
+    
+            </p>
+        </div>
+
+        <br><br>
+
+        <!-- short listing of companies we pull products from  -->
+        <div id="secondPara">
+            <div class="bio">
+                <b>Our Partners</b>
+            </div>
+            <div class="verticalLine">
+                <div id="graphic">
+                    <img src="./resources/AWSLogo.png" alt="Girl in a jacket" class="AmazonImage"> <br>
+                    <img src="./resources/AzureLogo.png" alt="Girl in a jacket" class="AzureImage">
+                    <img src="./resources/GoogleCloudLogo.png" alt="Girl in a jacket" class="GoogleImage"><br>
+                    <img src="./resources/SalesForceLogo.png" alt="Girl in a jacket" class="SalesForceImage">          
+                </div>
+            </div>
+        </div>
+
+
+        <br><br>
+
+        <!-- using flexbox, we display each teammember, their name and their role -->
+        <div id="thirdPara">
+            <div class="bio">
+                <b>Our Team</b>
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <img src="./resources/SarveshHeadShot.png" id="SarveshHeadshot" alt="Girl in a jacket">
+                    <p class="teamCaption">Sarvesh Sundaram</p> <br>
+                    <p class="teamCaption">Front-End Developer</p>
+                    
+                </div>
+                <div class="column">
+                    <img src="./resources/chrisHeadshot.png" id="ChrisHeadshot" alt="Girl in a jacket">
+                    <p class="teamCaption1">Chris Sandoval</p> <br>
+                    <p class="teamCaption1">Back-End Developer</p>
+                </div>
+                <div class="column">
+                    <img src="./resources/haydenHeadshot.png" id="HaydenHeadshot" alt="Girl in a jacket">
+                    <p class="teamCaption2">Hayden Diver</p> <br>
+                    <p class="teamCaption2">Back-End Developer</p>
+                </div>
+            </div>
+            
+        </div>
+        
+    </body>
+
+    <footer>
+        <ul id="contactInfo">
+            <li><b>Contact Info</b></li>
+            <li><b>Tel:</b> xxx-xxx-xxxx</li>
+            <li><b>Fax:</b> xxx-xxx-xxxx</li>
+            <li><b>Email:</b> contact@CloudFrontiers.com</li>
+        </ul>
+
+    </footer>
+
+</html>
